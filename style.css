@@ -16,7 +16,7 @@ p {
     color: hsla(0, 0%, 100%, 0.75);
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
-    line-height: 2;
+    line-height: 1.7;
 }
 
 h2 {
@@ -27,8 +27,27 @@ h2 {
 
 }
 
-body, button {
+button {
     background-color: hsl(0, 0%, 95%);
+    position: absolute;
+    bottom: 50px;
+    border-radius: 26.5px;
+    padding: 12px 30px;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    border: none;    
+}
+
+#sedans button{
+    color: hsl(31, 77%, 52%);
+}
+
+#suvs button{
+    color: hsl(184, 100%, 22%);
+}
+
+#luxury button{
+    color: hsl(179, 100%, 13%);
 }
 
 body {
@@ -36,13 +55,15 @@ body {
     flex-direction: column;
     justify-content: center;
     height: 100vh;
-    margin: 0px
+    margin: 0px;
+    background-color: hsl(0, 0%, 95%);
 }
 
 section {
     padding: 50px;
     width: 210px;
-    height: 500px;
+    height: 420px;
+    position: relative;
 }
 
 main {
