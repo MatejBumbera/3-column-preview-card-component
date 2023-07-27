@@ -27,3 +27,13 @@ body, button {
     background-color: hsl(0, 0%, 95%);
 }
 
+section {
+    padding: 32px;
+    max-width: 250px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 942px;
+}
