@@ -100,7 +100,7 @@ main {
     color: hsl(228, 45%, 44%); 
 }
 
-@media only screen and (max-width: 929px) {
+@media only screen and (max-width: 959px) {
     #sedans {
         border-radius: 6px  0 0 6px;
     }
@@ -112,7 +112,7 @@ main {
     }
 }
 
-@media only screen and (max-width: 619px) {
+@media only screen and (max-width: 649px) {
     #sedans {
         border-radius: 6px 6px 0 0;
     }
@@ -121,5 +121,8 @@ main {
     }
     #luxury {
         border-radius: 0 0 6px 6px;
+    }
+    section {
+        height: 370px;
     }
 }
